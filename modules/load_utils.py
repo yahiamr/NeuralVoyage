@@ -69,7 +69,7 @@ def normalize_column(df, column_name):
     return df
 
 # Example usage
-if __name__ == "__main__":
-    preprocessing_steps = [drop_missing_values, lambda df: convert_to_datetime(df, 'date_column')]
-    data = load_csv('path_to_file.csv', preprocess_funcs=preprocessing_steps)
-    print(data.head())
+# if __name__ == "__main__":
+#     preprocessing_steps = [drop_missing_values, lambda df: convert_to_datetime(df, 'date_column')]
+#     data = load_csv('path_to_file.csv', preprocess_funcs=preprocessing_steps)
+#     print(data.head())
